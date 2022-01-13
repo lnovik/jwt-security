@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class UserData implements Serializable {
 
 
-    private String user;
+    private String userName;
     private String password;
 
 
