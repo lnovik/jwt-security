@@ -16,8 +16,6 @@ import java.util.List;
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 
-
-
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
     public UserDetailsServiceImpl(BCryptPasswordEncoder bCryptPasswordEncoder) {
@@ -37,7 +35,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     private UserData findUser(String userName) {
 
         UserData user = new UserData();
-        user.setUserName("admin");
+        user.setUserName(userName);
         user.setPassword(bCryptPasswordEncoder.encode("nimda"));
 
         return user;
@@ -45,7 +43,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     public List<UserData> listUsers() {
         ArrayList<UserData> list = new ArrayList<>();
-        list.add(findUser("admin"));
+        list.add(findUser("admin1"));
+        list.add(findUser("admin2"));
         return list;
     }
 }
