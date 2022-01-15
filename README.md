@@ -16,7 +16,7 @@ Foram necessários os seguintes pré-requisitos para a execução deste projeto:
 - Maven 3.6.3 ou versões superiores.
 - Intellj IDEA Community Edition.
 - Controle de versão GIT instalado.
-Conta no GitHub para o armazenamento do projeto na nuvem.
-Conta no Heroku para o deploy do projeto na nuvem
-Postman: API Client para criar e salvar solicitações HTTP e HTTPs
-A implementação do JWT usando o Auth0
+- Conta no GitHub para o armazenamento do projeto na nuvem.
+- Conta no Heroku para o deploy do projeto na nuvem
+- Postman: API Client para criar e salvar solicitações HTTP e HTTPs
+- A implementação do JWT usando o Auth0
