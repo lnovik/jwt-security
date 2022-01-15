@@ -10,12 +10,12 @@ E nesta implementação do JWT (Auth0) que vai pegar toda a descrição e vai im
 </div>
 
 
-Foram necessários os seguintes pré-requisitos para a execução deste projeto
+Foram necessários os seguintes pré-requisitos para a execução deste projeto:
 
-Java 11 ou versões superiores.
-Maven 3.6.3 ou versões superiores.
-Intellj IDEA Community Edition.
-Controle de versão GIT instalado.
+- Java 11 ou versões superiores.
+- Maven 3.6.3 ou versões superiores.
+- Intellj IDEA Community Edition.
+- Controle de versão GIT instalado.
 Conta no GitHub para o armazenamento do projeto na nuvem.
 Conta no Heroku para o deploy do projeto na nuvem
 Postman: API Client para criar e salvar solicitações HTTP e HTTPs
